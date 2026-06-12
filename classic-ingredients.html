@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Lemonade - Ingredients</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            max-width: 600px;
+            width: 100%;
+            overflow: hidden;
+        }
+        header {
+            background: linear-gradient(135deg, #ffd89b 0%, #19547b 100%);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        header h1 { font-size: 2em; margin-bottom: 6px; text-shadow: 2px 2px 4px rgba(0,0,0,0.15); }
+        header p { margin-top: 8px; }
+        .content { padding: 30px; }
+        h2 { color: #667eea; font-size: 1.4em; margin-bottom: 12px; }
+        p.ingredient { font-size: 1.05em; color: #444; }
+        a.back { color: #667eea; text-decoration: none; }
+        footer { background: #f8f9ff; padding: 16px; text-align: center; color: #666; font-size: 0.9em; border-top: 1px solid #e0e0e0; }
+        @media (max-width:600px){ header h1{font-size:1.6em;} .content{padding:18px;} }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Classic Lemonade</h1>
+            <p><a class="back" href="lemonade-stand.html">← Back</a></p>
+        </header>
+        <div class="content">
+            <main>
+                <h2>Ingredients</h2>
+                <p class="ingredient">Lemons and sugar</p>
+            </main>
+        </div>
+        <footer>
+            <p><a href="https://maps.app.goo.gl/YTVNvvfSgS34xhv56" target="_blank" rel="noopener">Visit us at renaissance ridge</a></p>
+        </footer>
+    </div>
+</body>
+</html>
